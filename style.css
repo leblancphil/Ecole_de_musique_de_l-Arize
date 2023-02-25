@@ -79,7 +79,8 @@ li.nav-item.active a {
 }
 
 #concert>div,
-#contact>div {
+#contact>div,
+.carousel-caption {
     background-color: #024a59dc;
     color: white;
     border-radius: 10px;
@@ -115,4 +116,16 @@ label {
         font-size: 1em;
         font-weight: 400
     }
+}
+
+.carousel-item {
+
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-item img {
+
+    width: 100%;
+    object-fit: cover;
 }
