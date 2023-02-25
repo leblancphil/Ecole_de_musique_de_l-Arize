@@ -35,6 +35,7 @@ img:hover {
     opacity: 0.8
 }
 
+/*****************Navbar******************/
 nav {
     min-width: 370px
 }
@@ -56,6 +57,62 @@ li.nav-item.active a {
     margin-left: 2rem
 }
 
+/**********footer*****************/
 .adress-foot {
     color: #4FCB6A;
+}
+
+/**********Contenu pages*****************/
+
+.card {
+    box-shadow: 5px 5px 2px 1px rgba(26, 29, 34, 0.244);
+    margin-left: 2px;
+    color: #fff;
+    background-color: #024B59
+}
+
+#concert {
+    background-image: url(img/concert.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+#concert>div,
+#contact>div {
+    background-color: #024a59dc;
+    color: white;
+    border-radius: 10px;
+    height: max-content;
+}
+
+#concert h1,
+label {
+    color: #4FCB6A
+}
+
+#contact {
+    background-image: url(img/contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+#contact,
+#concert {
+    margin-top: 100px;
+    display: flex
+}
+
+@media (max-width:676px) {
+
+    h1 {
+        font-size: 1.2em;
+        font-weight: 600
+    }
+
+    h2 {
+        font-size: 1em;
+        font-weight: 400
+    }
 }
