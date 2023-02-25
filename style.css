@@ -24,11 +24,33 @@ h2 {
     font-weight: 400
 }
 
-a {
+a,
+a.nav-link {
     text-decoration: none;
     color: #fff
 }
 
 img:hover {
     opacity: 0.8
+}
+
+nav {
+    min-width: 370px
+}
+
+li.nav-item.active a {
+    color: #4FCB6A
+}
+
+.navbar h1,
+.navbar h2 {
+    color: #fff
+}
+
+.navbar {
+    background-color: #024B59
+}
+
+#navbar {
+    margin-left: 2rem
 }
