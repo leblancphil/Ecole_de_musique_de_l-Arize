@@ -15,13 +15,26 @@ h3 {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 1.2em;
     font-weight: 600
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 400
+}
+
+@media (min-width:676px) {
+
+    h1 {
+        font-size: 2.5em;
+        font-weight: 600
+    }
+
+    h2 {
+        font-size: 1.5em;
+        font-weight: 400
+    }
 }
 
 a,
@@ -103,19 +116,6 @@ label {
 #concert {
     margin-top: 100px;
     display: flex
-}
-
-@media (max-width:676px) {
-
-    h1 {
-        font-size: 1.2em;
-        font-weight: 600
-    }
-
-    h2 {
-        font-size: 1em;
-        font-weight: 400
-    }
 }
 
 .carousel-item {
